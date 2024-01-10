@@ -1,0 +1,550 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(bg.png);
+  width: auto;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+.logo {
+  height: 0;
+  width: 0;
+}
+main .logo img {
+  height: 5vh;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  left: 17vw;
+  top: 3vh;
+}
+main h3 {
+  color: white;
+  z-index: 999;
+  font-family: "Roboto", sans-serif;
+  font-size: 6vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 26vh;
+  margin: 0px 50px 0px 50px;
+  left: 11px;
+  text-align: center;
+}
+main h5 {
+  color: white;
+  z-index: 999;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  font-size: 2.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30vh;
+  left: 12px;
+}
+main p {
+  color: white;
+  z-index: 999;
+  font-family: "Nunito Sans", sans-serif;
+  position: relative;
+  font-size: 2.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 34vh;
+  text-align: center;
+}
+main input {
+  height: 9vh;
+  width: 36vw;
+  text-align: center;
+  color: white;
+  position: relative;
+  display: block;
+  top: 40vh;
+  left: 21.5vw;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 3vh;
+  background-color: #101414;
+  outline: none;
+}
+main button {
+  height: 9vh;
+  width: 19vw;
+  background-color: #c11119;
+  color: white;
+  display: block;
+  position: relative;
+  top: 30.77vh;
+  left: 59vw;
+  outline: none;
+  font-size: 3vh;
+  cursor: pointer;
+  border: 10px solid #c11119;
+  border-radius: 2px;
+}
+.sub-main h3 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  display: block;
+  position: relative;
+  height: 2vh;
+  width: 35.5vw;
+  left: 12vw;
+  font-size: 3.5vw;
+  top: 26vh;
+}
+.sub-main h5 {
+  color: white;
+  display: block;
+  position: relative;
+  height: 2vh;
+  width: 30.5vw;
+  left: 12vw;
+  font-size: 1.5vw;
+  top: 39vh;
+  font-family: "Nunito Sans", sans-serif;
+}
+.sub-main img {
+  /* height: 488px; */
+  object-fit: contain;
+  height: 85vh;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  left: 20vw;
+  top: -5vh;
+}
+.sub-main {
+  position: relative;
+  height: 87vh;
+  top: 65vh;
+  display: block;
+  background-color: black;
+  border: 18px solid #232323;
+  margin-left: -21px;
+  margin-right: -21px;
+}
+.sub-main2 {
+  position: relative;
+  height: 70vh;
+  top: 62vh;
+  display: block;
+  background-color: black;
+  border: 18px solid #232323;
+  margin-left: -21px;
+  margin-right: -21px;
+}
+.sub-main2 h3 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  display: block;
+  position: relative;
+  height: 2vh;
+  width: 35.5vw;
+  left: 51vw;
+  font-size: 3.5vw;
+  top: 20vh;
+}
+.sub-main2 h5 {
+  color: white;
+  display: block;
+  position: relative;
+  height: 2vh;
+  top: 39vh;
+  font-family: "Nunito Sans", sans-serif;
+  width: 39.5vw;
+  left: 51vw;
+  font-size: 2vw;
+}
+.sub-main2 img {
+  position: relative;
+  height: 64vh;
+  width: 44vw;
+  left: 6vw;
+  top: -1vh;
+  display: block;
+  overflow: hidden;
+}
+.sepration {
+  height: 61vh;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+}
+
+.faq {
+  background: black;
+  color: white;
+  padding: 66px;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+  color: white;
+}
+
+.faqbox svg {
+  filter: invert(1);
+}
+
+.faqbox {
+  transition: all 1s ease-out;
+  font-size: 24px;
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  max-width: 60vw;
+  margin: 34px auto;
+  cursor: pointer;
+}
+.last {
+  background-color: black;
+  border: 18px solid #232323;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+}
+.last p {
+  color: white;
+  z-index: 999;
+  font-family: "Nunito Sans", sans-serif;
+  position: relative;
+  font-size: 3.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -8vh;
+  text-align: center;
+}
+.last input {
+  height: 9vh;
+  width: 36vw;
+  text-align: center;
+  color: white;
+  position: relative;
+  display: block;
+  top: 0vh;
+  left: 21.5vw;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 3vh;
+  background-color: #101414;
+  outline: none;
+}
+.last button {
+  height: 9vh;
+  width: 19vw;
+  background-color: #c11119;
+  color: white;
+  display: block;
+  position: relative;
+  top: -9.2vh;
+  left: 59vw;
+  outline: none;
+  font-size: 3vh;
+  cursor: pointer;
+  border: 10px solid #c11119;
+  border-radius: 2px;
+}
+/* .footer{
+  background-color: black;
+  color: gray;
+  height: 58vh;
+} */
+.footer {
+  background-color: #1c1c1c; /* Netflix's dark background color */
+  color: #B3B3B3; /* White text for better visibility */
+  padding: 20px 0; /* Padding for top and bottom */
+  font-family: Arial, sans-serif; /* Generic font, you can replace with Netflix's font if available */
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 28px; /* Space below the paragraph */
+  /* margin-bottom: 28px; */
+  top: 13px;
+  position: relative;
+}
+
+.footer ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Set direction to column */
+  align-items: center; /* Center align items horizontally */
+}
+
+.footer ul li {
+  margin: 5px 0; /* Vertical margin for list items */
+  text-decoration: underline;
+}
+
+.footer ul li:hover {
+  cursor: pointer; /* Change cursor on hover */
+}
+.footer h6 a{
+  text-decoration: none;
+  color: white;
+}
+.footer h6{
+  margin-top: 2vh;
+}
+.footer h6 a:hover{
+  text-decoration: underline;
+  color: blue;
+  transition: all 0.3s linear;
+}
+
+/* Responsive Code */
+@media (max-width: 1300px) {
+  main .logo img {
+    height: 3vh;
+    position: relative;
+    left: 42px;
+  }
+  main h3 {
+    color: white;
+    z-index: 999;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 22vh;
+    margin: 0px 50px 0px 50px;
+    left: 11px;
+    text-align: center;
+  }
+  main h5 {
+    color: white;
+    z-index: 999;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    font-size: 2.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 24vh;
+    left: 21px;
+  }
+  main p {
+    color: white;
+    z-index: 999;
+    font-family: "Nunito Sans", sans-serif;
+    position: relative;
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 27vh;
+    text-align: center;
+  }
+  main input {
+    height: 9vh;
+    width: 73vw;
+    text-align: center;
+    color: white;
+    position: relative;
+    display: block;
+    top: 29vh;
+    left: 13vw;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 2vh;
+    background-color: #101414;
+    outline: none;
+  }
+  main button {
+    height: 7vh;
+    width: 23vw;
+    background-color: #c11119;
+    color: white;
+    display: block;
+    position: relative;
+    top: 31vh;
+    left: 38.9vw;
+    outline: none;
+    font-size: 1.9vh;
+    cursor: pointer;
+    border: 10px solid #c11119;
+    border-radius: 2px;
+  }
+  .sub-main h3 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    display: block;
+    position: relative;
+    height: 2vh;
+    width: 35.5vw;
+    left: 12vw;
+    font-size: 3.5vw;
+    top: 32vh;
+  }
+  .last {
+    height: 35vh;
+  }
+  .last p {
+    font-size: 3.6vh;
+    top: -5vh;
+  }
+  .last input {
+    width: 58vw;
+  }
+  .last button {
+    width: 20vw;
+    top: 3.8vh;
+    left: 40.9vw;
+  }
+}
+.sub-main h5 {
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  display: block;
+  position: relative;
+  height: 2vh;
+  left: 12vw;
+  font-size: 1.5vw;
+  top: 39vh;
+}
+.sub-main img {
+  height: 85vh;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  left: 50vw;
+  top: -5vh;
+}
+@media (max-width: 894px) {
+  main input {
+    height: 9vh;
+    width: 43vw;
+    text-align: center;
+    color: white;
+    position: relative;
+    display: block;
+    top: 302px;
+    left: 238px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 3vh;
+    background-color: #101414;
+    outline: none;
+  }
+}
+@media (max-width: 896px) {
+  main input {
+    width: 91vw;
+    top: 30vh;
+    left: 4.5vw;
+  }
+}
+@media (max-width: 900px) {
+  .sub-main img {
+    top: 22vh;
+    left: 6vw;
+    width: 89%;
+    height: 46vh;
+    object-fit: contain;
+    object-position: bottom;
+  }
+  .sub-main2 img {
+    top: 29vh;
+    left: 2vw;
+    width: 100%;
+    height: 35vh;
+    object-fit: contain;
+    object-position: bottom;
+  }
+  main input {
+    font-size: 3vh;
+  }
+  .sub-main h3 {
+    font-size: 4vh;
+    top: 8vh;
+    left: 0vw;
+    text-align: center;
+    width: auto;
+  }
+  .sub-main h5 {
+    font-size: 2vh;
+    top: 17vh;
+    text-align: center;
+    left: 0vw;
+    width: auto;
+  }
+  .sub-main2 h3 {
+    font-size: 4vh;
+    top: 11vh;
+    left: 0vw;
+    text-align: center;
+    width: auto;
+  }
+  .sub-main2 h5 {
+    font-size: 2vh;
+    top: 21vh;
+    text-align: center;
+    left: 0vw;
+    width: auto;
+  }
+  .last p {
+    font-size: 3vh;
+    top: -5vh;
+  }
+  .last input {
+    width: 91vw;
+    top: 0vh;
+    left: 4.5vw;
+  }
+  .last button {
+    width: 38vw;
+    top: 3vh;
+    left: 30.8vw;
+    font-size: 2.5vh;
+  }
+  main .logo img {
+    height: 3vh;
+    left: 29px;
+  }
+  main h3 {
+    font-size: 4vh;
+    left: 0px;
+    margin: 0px;
+  }
+  main h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8vh;
+    top: 24vh;
+    left: 0px;
+  }
+  main p {
+    font-size: 3vh;
+  }
+  main button {
+    width: 34vw;
+    top: 32vh;
+    left: 33.9vw;
+    font-size: 1.8vh;
+  }
+  .sub-main {
+    height: 72vh;
+  }
+}
